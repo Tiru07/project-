@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "why my lucky no for you can focus on yours" 
+read n 
+
+if [ $n -eq 10 ];
+then 
+echo "you got 1st prize"
+elif [ $n -eq 12 ];
+then
+echo "you got 2nd prize"  
+elif [ $n -eq 13 ];
+then
+echo "you got 3rd prize"
+
+else 
+echo "sorry better luck next time"
